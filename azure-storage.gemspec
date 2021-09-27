@@ -40,7 +40,6 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ">= 1.9.3"
 
-  s.add_runtime_dependency("azure-core",              "~> 0.1")
   s.add_runtime_dependency("faraday",                 "~> 1.0")
   s.add_runtime_dependency("faraday_middleware",      "~> 1.0")
   s.add_runtime_dependency("nokogiri",                "~> 1.6", ">= 1.6.8")
